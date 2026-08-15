@@ -1,0 +1,17 @@
+{
+  "people": {
+    "Person One": ["Jane Smith", "J. Smith"]
+  },
+  "first_names": {
+    "First Name One": ["Jane"]
+  },
+  "last_names": {
+    "Last Name One": ["Smith"]
+  },
+  "companies": {
+    "Company Limited One": ["Acme Corp", "Acme Corporation"]
+  },
+  "entities": {
+    "Document Title One": ["Project Falcon"]
+  }
+}

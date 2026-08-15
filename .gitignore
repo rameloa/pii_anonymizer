@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated output contains real PII (plaintext reverse mapping) -- never commit it.
+/output/
+
+# Real source documents/config live here for local runs -- never commit them.
+/input/*
+!/input/.gitkeep
+/entity_config.json
