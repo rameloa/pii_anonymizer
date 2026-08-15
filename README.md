@@ -118,3 +118,11 @@ Do not use `--copy-unsupported` for material intended for disclosure: it copies 
 Review `anonymization_audit.json`, visually inspect random documents from every file type, search output for known customer/entity variants, and confirm all scanned PDFs were OCR'd then re-run. PDF redaction handles recognized searchable text but cannot remove PII embedded in images.
 
 The run stops with a failure entry in the audit if two different source files would become the same anonymized path; this prevents accidental overwrites.
+
+## Running the code
+
+~/Desktop/pii_anonymizer
+
+.venv/bin/python anonymize_attachments.py input output \
+  --config entity_config.json \
+  --overwrite-output
